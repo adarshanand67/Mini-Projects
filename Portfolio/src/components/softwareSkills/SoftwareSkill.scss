@@ -1,0 +1,44 @@
+.dev-icons {
+  padding-left: 0;
+  padding: 5px;
+  list-style: none;
+  font-size: 4rem;
+  margin: 5px;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+}
+
+.software-skill-inline > i {
+  color: #868e96;
+}
+
+.software-skill-inline > i:hover {
+  color: #645beb;
+}
+.software-skill-inline > p {
+  color: #868e96;
+  font-size: 14px;
+  text-align: center;
+}
+.software-skill-inline:hover {
+  transform: scale(1.13);
+  transition: 0.2s;
+}
+
+#skill-icon {
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+#skill-icon:hover {
+  transition: 0.1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chipkahua {
+  margin: 0;
+  // padding: 5px;
+}

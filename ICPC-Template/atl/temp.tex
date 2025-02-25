@@ -1,0 +1,135 @@
+\documentclass[a4paper, twocolumn]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[Glenn]{fncychap}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+
+\title{Code Template for ACM-ICPC}
+\author{PseudoCode, IIT Goa}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\setlength\columnseprule{0.4pt}
+\geometry{a4paper,left=1cm,right=1cm,top=2cm,bottom=1.5cm}
+
+\lstset{frame=tb,
+  language=c++,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=2
+}
+
+\begin{document}
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+\pagebreak
+%\pagestyle{plain}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\chead{Code Template for ACM-ICPC, PseudoCode, IIT Goa}
+\cfoot{}
+\tableofcontents
+\end{titlepage}
+
+\pagestyle{fancy}
+\chead{Code Template for ACM-ICPC, PseudoCode, IIT Goa}
+\cfoot{- \thepage \ -}
+
+\section{DP}
+\subsection{LCS}
+\lstinputlisting{codes/DP/LCS.cc}
+\subsection{LongestIncreasingSubsequence}
+\lstinputlisting{codes/DP/LongestIncreasingSubsequence.cc}
+\section{Geometry}
+\subsection{Geometry}
+\lstinputlisting{codes/Geometry/Geometry.cc}
+\section{Graphs}
+\subsection{ArticulationOrBridge}
+\lstinputlisting{codes/Graphs/ArticulationOrBridge.cc}
+\subsection{BellmanFord}
+\lstinputlisting{codes/Graphs/BellmanFord.cc}
+\subsection{Cycles}
+\lstinputlisting{codes/Graphs/Cycles.cpp}
+\subsection{Diameter}
+\lstinputlisting{codes/Graphs/Diameter.cpp}
+\subsection{DSU}
+\lstinputlisting{codes/Graphs/DSU.cpp}
+\subsection{EulerianPath}
+\lstinputlisting{codes/Graphs/EulerianPath.cc}
+\subsection{GraphColoring}
+\lstinputlisting{codes/Graphs/GraphColoring.cpp}
+\subsection{LCA}
+\lstinputlisting{codes/Graphs/LCA.cc}
+\subsection{MaxBipartiteMatching}
+\lstinputlisting{codes/Graphs/MaxBipartiteMatching.cc}
+\subsection{MinCostMaxFlow}
+\lstinputlisting{codes/Graphs/MinCostMaxFlow.cc}
+\subsection{MinCut}
+\lstinputlisting{codes/Graphs/MinCut.cc}
+\subsection{MST}
+\lstinputlisting{codes/Graphs/MST.cpp}
+\subsection{SCC}
+\lstinputlisting{codes/Graphs/SCC.cc}
+\subsection{ShortestPaths}
+\lstinputlisting{codes/Graphs/ShortestPaths.cpp}
+\subsection{TopoSort}
+\lstinputlisting{codes/Graphs/TopoSort.cpp}
+\section{NumberTheory}
+\subsection{Euclid}
+\lstinputlisting{codes/NumberTheory/Euclid.cc}
+\subsection{NumberT}
+\lstinputlisting{codes/NumberTheory/NumberT.cpp}
+\section{Others}
+\subsection{CSP}
+\lstinputlisting{codes/Others/CSP.cc}
+\subsection{Dates}
+\lstinputlisting{codes/Others/Dates.cc}
+\subsection{Simplex}
+\lstinputlisting{codes/Others/Simplex.cc}
+\subsection{template}
+\lstinputlisting{codes/Others/template.h}
+\section{SegTree}
+\subsection{lazyProp}
+\lstinputlisting{codes/SegTree/lazyProp.cc}
+\subsection{RMQ}
+\lstinputlisting{codes/SegTree/RMQ.cc}
+\subsection{segmentTree}
+\lstinputlisting{codes/SegTree/segmentTree.cc}
+\subsection{segTreeN}
+\lstinputlisting{codes/SegTree/segTreeN.cc}
+\section{Snippet}
+\subsection{Snippet}
+\lstinputlisting{codes/Snippet/Snippet.cpp}
+\section{STL}
+\subsection{next-permutation}
+\lstinputlisting{codes/STL/next-permutation.cpp}
+\subsection{nth-element}
+\lstinputlisting{codes/STL/nth-element.cpp}
+\subsection{priority-queue}
+\lstinputlisting{codes/STL/priority-queue.cpp}
+\section{String}
+\subsection{KMP}
+\lstinputlisting{codes/String/KMP.cc}
+\subsection{zAlgo}
+\lstinputlisting{codes/String/zAlgo.cc}
+\section{Tries}
+\subsection{Tries}
+\lstinputlisting{codes/Tries/Tries.cpp}
+\end{document}

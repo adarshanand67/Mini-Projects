@@ -1,0 +1,11 @@
+body{
+  background-image: linear-gradient(to left, #53d5c8 0%, #d0ff35 100%);
+}
+*{
+  font-size: 23px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1em;
+}

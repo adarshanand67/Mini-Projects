@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Counter</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  </head>
+  <body class="text-center m-5">
+    <div class="container">
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+        alt="JavaScript"
+        class="icon"
+        width="100"
+        height="100"
+      />
+    </div>
+
+    <div class="container text-center border border-5 my-5">
+      <div class="row">
+        <h1 class="text-white fw-bold my-2 text-center">Calculator app</h1>
+      </div>
+
+      <!-- Tables for all Calculator btns -->
+      <!-- 7 8 9 / -->
+      <!-- 4 5 6 * -->
+      <!-- 1 2 3 - -->
+      <!-- 0 . = + -->
+      <div class="row">
+        <table class="table">
+          <tr>
+            <td colspan="3">
+              <input type="text" id="input" placeholder="0" />
+            </td>
+            <td>
+              <button class="btn btn-primary" id="c" onclick="clearInput()">
+                C
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn btn-primary" id="7" onclick="addNumber(7)">
+                7
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="8" onclick="addNumber(8)">
+                8
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="9" onclick="addNumber(9)">
+                9
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-success" id="/" onclick="addOperator('/')">
+                /
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn btn-primary" id="4" onclick="addNumber(4)">
+                4
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="5" onclick="addNumber(5)">
+                5
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="6" onclick="addNumber(6)">
+                6
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-success" id="*" onclick="addOperator('*')">
+                *
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn btn-primary" id="1" onclick="addNumber(1)">
+                1
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="2" onclick="addNumber(2)">
+                2
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="3" onclick="addNumber(3)">
+                3
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-success" id="-" onclick="addOperator('-')">
+                -
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn btn-primary" id="0" onclick="addNumber(0)">
+                0
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="." onclick="addNumber('.')">
+                .
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-primary" id="=" onclick="calculate()">
+                =
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-success" id="+" onclick="addOperator('+')">
+                +
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="./index.js" async defer></script>
+  </body>
+</html>

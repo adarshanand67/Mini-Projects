@@ -1,0 +1,23 @@
+<!-- include header.ejs -->
+<%- include('partials/header.ejs') %>
+<h1>Home</h1>
+<h2>
+  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci est rem,
+  dolore facere ratione maiores earum natus illum totam, sunt quibusdam iusto
+  quam corporis cumque quod optio. Eligendi, praesentium pariatur?
+</h2>
+
+<%- include('partials/nav.ejs') %>
+
+<!-- ejs is server side scripting  -->
+<!-- cycle through blogs list -->
+<% const name = "mario" %> <% const age = 30 %> <% const isCool = true %> <%
+blogs.forEach(blog => { %>
+<div>
+  <h3><%= blog.title %></h3>
+  <p><%= blog.body %></p>
+  <hr>
+</div>
+<% }) %> //
+// <!-- include footer.ejs -->
+<%- include('partials/footer.ejs') %>

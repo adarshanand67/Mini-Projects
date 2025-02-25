@@ -1,0 +1,28 @@
+{
+  "name": "namaste-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": "git+https://github.com/adarshanand67/Namaste-Javascript.git",
+  "author": "Adarsh Anand <adarsh.anand.20031@iitgoa.ac.in>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshanand67/Namaste-Javascript/issues"
+  },
+  "homepage": "https://github.com/adarshanand67/Namaste-Javascript#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "faker": "^6.6.6",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "yarn": "^1.22.19"
+  },
+  "description": ""
+}

@@ -1,0 +1,52 @@
+# Node JS
+
+<!-- - 📂 **C:\\Users\\hp\\Documents\\GitHub\\node\-js**
+  - 📄 [README.md](README.md)
+  - 📂 **nodejs**
+    - 📄 [00 filesystem.js](nodejs/00%20filesystem.js)
+    - 📄 [01 client server.js](nodejs/01%20client%20server.js)
+    - 📄 [02 npm lodash nodemon.js](nodejs/02%20npm%20lodash%20nodemon.js)
+    - 📄 [03 express.js](nodejs/03%20express.js)
+    - 📄 [04 colors.js](nodejs/04%20colors.js)
+    - 📄 [05 view engine.js](nodejs/05%20view%20engine.js)
+    - 📄 [06 middlewares.js](nodejs/06%20middlewares.js)
+    - 📄 [07 mongodb.js](nodejs/07%20mongodb.js)
+    - 📂 **assets**
+      - 📄 [ok.txt](nodejs/assets/ok.txt)
+      - 📄 [ok1.txt](nodejs/assets/ok1.txt)
+      - 📄 [stream.txt](nodejs/assets/stream.txt)
+      - 📄 [write\-stream.txt](nodejs/assets/write-stream.txt)
+    - 📂 **css**
+      - 📄 [styles.css](nodejs/css/styles.css)
+    - 📂 **html**
+      - 📄 [404.html](nodejs/html/404.html)
+      - 📄 [about.html](nodejs/html/about.html)
+      - 📄 [contact.html](nodejs/html/contact.html)
+      - 📄 [index.html](nodejs/html/index.html)
+    - 📂 **models**
+      - 📄 [blog.js](nodejs/models/blog.js)
+    - 📂 **views**
+      - 📄 [404.ejs](nodejs/views/404.ejs)
+      - 📄 [about.ejs](nodejs/views/about.ejs)
+      - 📄 [contact.ejs](nodejs/views/contact.ejs)
+      - 📄 [create.ejs](nodejs/views/create.ejs)
+      - 📄 [index.ejs](nodejs/views/index.ejs)
+      - 📂 **partials**
+        - 📄 [footer.ejs](nodejs/views/partials/footer.ejs)
+        - 📄 [header.ejs](nodejs/views/partials/header.ejs)
+        - 📄 [nav.ejs](nodejs/views/partials/nav.ejs)
+ -->
+## Topics
+
+- Intro + Setup
+- Node basics
+- Client server architecture
+- Request responses
+- NPM
+- Express server
+- View Engines
+- Middlewares
+- MongoDB Atlas , Mongoose
+- GET POST PUT DELETE
+- Express Router \*\*
+- MVC(Model View Controller) \*\*

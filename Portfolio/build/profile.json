@@ -1,0 +1,90 @@
+{
+  "data": {
+    "user": {
+      "name": "Adarsh Anand",
+      "bio": "@DSC-IIT-GOA Lead '22 | Foss Overflow Mentor | Postman Leader | MERN | 4⭐CC | IIT Goa CSE '24\r\n",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73928744?u=8fba2b19b9c12e5dc2d3d092b0b5e9f099dcb6ce&v=4",
+      "location": "Goa, India",
+      "pinnedItems": {
+        "totalCount": 6,
+        "edges": [
+          {
+            "node": {
+              "name": "ShareMe",
+              "description": "ShareMe Social Media Website to upload posts",
+              "forkCount": 1,
+              "stargazers": {"totalCount": 3},
+              "url": "https://github.com/adarshanand67/ShareMe",
+              "id": "R_kgDOIOsCqg",
+              "diskUsage": 14299,
+              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
+            }
+          },
+          {
+            "node": {
+              "name": "Bloomer",
+              "description": "Deploying web app for IRIS prediction",
+              "forkCount": 1,
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/adarshanand67/Bloomer",
+              "id": "R_kgDOGtHOyA",
+              "diskUsage": 425,
+              "primaryLanguage": {"name": "HTML", "color": "#e34c26"}
+            }
+          },
+          {
+            "node": {
+              "name": "Book-landing-page",
+              "description": "Book landing page with bootstrap customizations",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/adarshanand67/Book-landing-page",
+              "id": "R_kgDOHgYpZg",
+              "diskUsage": 9151,
+              "primaryLanguage": {"name": "HTML", "color": "#e34c26"}
+            }
+          },
+          {
+            "node": {
+              "name": "Google-Maps-0.5",
+              "description": "Path Finding Visualiser using Dijkstra, A* and BackTracking",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/adarshanand67/Google-Maps-0.5",
+              "id": "R_kgDOHKdY4w",
+              "diskUsage": 21454,
+              "primaryLanguage": {
+                "name": "Jupyter Notebook",
+                "color": "#DA5B0B"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "NewsHub",
+              "description": "News API integration + React JS",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/adarshanand67/NewsHub",
+              "id": "R_kgDOHkc93A",
+              "diskUsage": 367,
+              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
+            }
+          },
+          {
+            "node": {
+              "name": "Food-details-app",
+              "description": "Food details app - API",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/adarshanand67/Food-details-app",
+              "id": "R_kgDOHtpzOQ",
+              "diskUsage": 3,
+              "primaryLanguage": {"name": "HTML", "color": "#e34c26"}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

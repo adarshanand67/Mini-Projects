@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  font-display: swap;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: rem;
+    line-height: normal;
+  }
+}
+
+/* Scrollbar customization */
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+  border-radius: 150px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 150px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #55198b;
+  border-radius: 150px;
+}
+
+/* Selection Customization */
+
+::-moz-selection {
+  background: #9f52e4;
+  color: #fff;
+}
+::-webkit-selection {
+  background: #9f52e4;
+  color: #fff;
+}
+::selection {
+  background: #9f52e4;
+  color: #fff;
+}
+
+/* Changing cursor - Get the .cur file */
+
+* {
+  cursor: url(./assets/Normal\ Select.cur), auto;
+}

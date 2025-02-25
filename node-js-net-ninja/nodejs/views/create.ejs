@@ -1,0 +1,15 @@
+<!-- include header.ejs -->
+<%- include('partials/header.ejs') %>
+<%- include('partials/nav.ejs') %>
+
+<!-- form to take data - title,snippet,body -->
+
+<form action="/blogs" method="POST">
+  <input type="text" name="title" placeholder="title"> 
+  <input type="text" name="snippet" placeholder="snippet">
+  <input type="text" name="body" placeholder="body">
+  <input type="submit" value="Submit">
+</form>
+
+// <!-- include footer.ejs -->
+<%- include('partials/footer.ejs') %>
